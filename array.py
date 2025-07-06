@@ -14,3 +14,8 @@ print()
 
 bool_array=pd.array(['True','False','True','False','True'],dtype='bool')
 print()
+
+
+arr=pd.array([12,14,16,17,20])
+arr_series=pd.Series(arr)
+print(arr_series)
